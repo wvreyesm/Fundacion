@@ -21,7 +21,7 @@ font-family: 'Coming Soon', cursive;
 /*ETIQUETAS*/
 body{
 background-image: url(../img/paisajefondo.jpg);
-background-repeat: repeat;
+background-repeat: no-repeat;
 background-size: cover;
 }
 
@@ -91,13 +91,14 @@ li{
 	border-radius: 10px;
 	box-shadow: 0 0 10px black inset;
 
+
  	
 }
 
 section{
-	width: 700px;
+	width: 800px;
 	background: #A5DCFE;
-	height: auto;
+	height: 660px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -109,11 +110,11 @@ figure{
 
 aside{
 
-	width: 280px;
+	width: 180px;
 	background: #095381;
-	height: 600px;
+	height: 200px;
 	float: left;
-	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
 
@@ -141,7 +142,7 @@ p{
 
 
 
-/*CLASES*/
+/*CLASES-ETIQUETAS*/
 
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
@@ -156,20 +157,14 @@ p{
 .menu2:hover{color: black; text-decoration: none; text-shadow: 0 0 20px black;}
 .menu2:active{color: white; text-decoration: none;}
 
+/*CLASES-IMAGENES*/
+
 .ninos{border-radius: 10px;}
 .alimentacion{border-radius: 10px;}
 .educacion{border-radius: 10px;}
 .ayudar{border-radius: 10px; width: 200px; height: 200px; margin-left: 0px; margin-top: 40px; }
+.cazuca{border-radius: 10px; width: 400px; height: 300px; }
 
-.aside2{
-		margin-right: 20px;
-		width: 280px
-	
-}
-
-.seccion2{
-margin-left: 20px;
-}
 /*SEUDO CLASES*/
 
 
